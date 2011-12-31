@@ -6,6 +6,7 @@ include 'RestView.class.php';
 include 'RestRequest.class.php';
 include 'RestResponse.class.php';
 include 'RestAuthenticator.class.php';
+include 'RestClient.class.php';
 
 /**
 * Class RestServer 
@@ -256,5 +257,4 @@ class RestServer {
         return $this->getResponse()->getResponse() ; // Return response content;
     }
 }
-
 ?>
